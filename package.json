@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avicse007/egghead-react-morden-tool-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/avicse007/egghead-react-morden-tool-boilerplate/issues"
+  },
+  "homepage": "https://github.com/avicse007/egghead-react-morden-tool-boilerplate#readme"
 }
