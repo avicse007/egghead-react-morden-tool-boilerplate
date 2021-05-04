@@ -4,7 +4,7 @@ import React from 'react';
 
 const Warning = React.lazy(() => import('./warning'));
 
-const a = "git remove hooks folder"
+const a = "git remove folder"
 
 class App extends React.Component {
   state = {
