@@ -4,12 +4,14 @@ import React from 'react';
 
 const Warning = React.lazy(() => import('./warning'));
 
-const a = "git remove folder"
-
 class App extends React.Component {
   state = {
       count: 0,
   };
+
+  componentDidMount() {
+      console.log('It Mount');
+  }
 
   increment = () => {
       this.setState((state) => ({ count: state.count + 1 }));
@@ -25,10 +27,10 @@ class App extends React.Component {
       return (
           <div>
               <h1> Hello world </h1>
-              <h2 className={count > 3 ? 'warning' : null}>
+              <h3 className={count > 3 ? 'warning' : null}>
                   {' '}
           Count : {this.state.count}{' '}
-              </h2>
+              </h3>
               {count > 3 ? (
                   <React.Suspense fallback={null}>
                       <Warning />
