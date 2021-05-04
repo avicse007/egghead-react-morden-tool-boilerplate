@@ -4,7 +4,7 @@ import React from 'react';
 
 const Warning = React.lazy(() => import('./warning'));
 
-const a = "asgit"
+const a = "sgit"
 
 class App extends React.Component {
   state = {
